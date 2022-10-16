@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.HeaderPart{
+	height: 100vh;
+	width: 100%;
+	background-image: url(Images/BackgroundImage.webp);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 45px;
+	padding-left: 5%;
+	padding-right: 5%;
+    width:100%;
+}
+.CourseTitle{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+   
+}
+.CourseTitle h2{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 60px;
+}
+
+span{
+	color: #f9004d;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+.button{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+.button:hover{
+	transform: scale(1.2);
+}
+.content{
+	
+	/*position: absolute;*/
+	
+	/*margin: 0 auto;*/
+	/*display: flex;
+	/*text-align: center;*/
+	/*align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	/*top: 50%;
+	left:8%;
+	/*transform: translateY(-50%);
+	width: auto;
+	max-width: 95%;*/
+	width: auto;
+	max-width: 95%;
+	max-height: auto;
+	margin: 0 auto;
+	display: flex;
+	display: block;
+	/*text-align: center;*/
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.content h1{
+    display: block;
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 50px;
+}
+.content p{
+	color: white;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.content h4{
+	color: #fcfc;
+	letter-spacing: 2px;
+	font-size: 25px;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color:#f9004d;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px; 
+}
+.about{
+	
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+	
+}
+.about img{
+	height: auto;
+	width: 430px;
+	
+}
+
+.about-text{
+	width: 550px;
+}
+.main{
+	width: auto;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.about-text h2{
+	 color: #FFD700;;
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+.about-text a{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+    
+}
+.about-text a:hover{
+    background-color: #FFD700;
+    color: #000;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+.CourseSyllabus{
+	background-color: #191919;
+    color: white;
+
+	
+}
+.ShowSyllabus h2{
+	text-align: center;
+}
+.accordion-header .accordion-button{
+    background-color: #191919;
+    color: white;
+	display: inline;
+	text-align: center;
+}
+.accordion-body{
+    background-color: bisque;
+    color: black;
+}
+
+.accordion-header .accordion-button:hover{
+    background-color: bisque;
+    color: black;
+}
+.accordion-body .btn{
+	
+	transition: transform .4s; 
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 15px;
+	border-radius: 30px;
+	transition: .4s; 
+    margin: 2px 2px 2px 2px;
+    
+    
+}
+.accordion-body .btn:hover{
+	transform: scale(1.1);
+    background-color:yellow;
+	color: black;
+}
+.accordion-body p{
+	color: black;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+.moreCourses{
+	background-color: #191919;
+    color: white;
+	
+}
+.moreCourses h2{
+	text-align: center;
+	color: white;
+	
+}
+.moreCourses .card-body{
+	color: #000;
+}
+.footerDiv{
+	background-color: #191919;
+	color: white;
+	text-align: center;
+}
